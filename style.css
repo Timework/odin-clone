@@ -1,0 +1,269 @@
+.logo-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    margin: 20px 10px;
+    color: #ce973e;
+}
+header > *{
+    font-family: 'Open Sans', sans-serif !important;
+}
+nav li {
+    font-size: 18px;
+    color: rgba(74, 74, 74, .7);
+    padding: 0 10px;
+}
+nav li:hover {
+    color: black;
+}
+nav ul {
+    margin: 25px 10px;
+}
+.border-right {
+    border-right: 1px solid rgba(74, 74, 74, .7);
+}
+.fa-bars {
+    margin: 20px;
+    color: #6abfc3;
+    font-size: 25px;
+}
+nav {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.logo-img {
+    height: 70px;
+    margin-left: 10px;
+}
+header {
+    padding: 20px 0;
+}
+header h1 {
+    color: #ce973e;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 100;
+    margin: 50px 0;
+}
+header p {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    color: rgba(74, 74, 74, .7);
+}
+.fa-comments {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    background-color: #6abfc3;
+    margin: 20px;
+}
+.margin-center {
+    margin: 0 auto;
+    text-align: center;
+}
+.margin-h {
+    margin: 40px 0;
+}
+.button {
+    border: 0;
+    font-size: 18px;
+    text-align: center;
+    background-color: #6abfc3;
+    color: white;
+    padding: 16px 56px;
+    border-radius: .2em;
+    font-weight: bold;
+    box-shadow: 0 .05em 0.25em 0 rgba(0,0,0,0.5);
+}
+.container {
+    padding: 0 15px;
+    max-width: 600px;
+    margin: 30px auto;
+}
+h2 {
+    font-size: 24px;
+    color: #4a4a4a;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.explain {
+    font-size: 18px;
+    margin: 40px 0;
+    line-height: 35px;
+    color: rgba(74, 74, 74, .7);
+    font-family: 'Open Sans', sans-serif !important;
+}
+.container > * {
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: center;
+}
+.how {
+    max-width: 1080px;
+    margin: 20px auto;
+}
+.how-img {
+    display: block;
+    height: 165px;
+    margin: 20px auto;
+}
+h4 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.how-item > * {
+    text-align: center;
+    justify-content: center;
+}
+.bg-grey {
+    background-color: #f3f3f3;
+}
+.limited-con {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+    padding: 50px 20px;
+}
+.skill {
+    margin: 20px;
+    padding: 20px 0;
+    background-color: white;
+}
+.skill-img {
+    display: block;
+    margin: 20px auto;
+    height: 160px
+}
+.skill-text {
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+.extra {
+    max-width: 995px;
+    margin: 0 auto;
+}
+.extra > * {
+    margin-right: 50px;
+}
+.btt-o {
+    background-color: #cc9543;
+}
+.success {
+    background-image: linear-gradient(to bottom, #fff, #eee);
+    padding: 30px 0;
+}
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.profile {
+    padding-left: 50px;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.profile-info {
+    padding-left: 20px;
+}
+.profile-story {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(74, 74, 74, .7);
+}
+.profile-name {
+    color: #ce973e;
+    font-size: 18px;
+    line-height: 30px;
+}
+.profile-name:hover {
+    color: black;
+}
+.effects {
+    color: rgba(74, 74, 74, .7);
+    text-decoration: underline;
+}
+.effects:hover {
+    color: black;
+}
+.padding-h {
+    padding: 20px 0;
+}
+.learning {
+    font-size: 36px;
+    color: rgba(74, 74, 74, .7);
+    font-weight: 300 !important;
+}
+footer {
+    font-family: 'Open Sans', sans-serif !important;
+    width: 100%;
+    padding: 100px 5%;
+    margin: 0 auto;
+    display: flex;
+}
+.icons > * {
+    color: #ce973e;
+    font-size: 30px;
+    margin: auto 30px
+}
+.icons > *:hover {
+    color: black;
+}
+footer ul {
+    margin: 0 20px
+}
+footer li {
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(74, 74, 74, .7);
+    line-height: 30px;
+}
+footer li:hover {
+    color: black
+}
+.fa-twitter {
+    margin-right: 0;
+}
+.button:hover {
+    opacity: .8;
+    color: #fff;
+}
+@media only screen and (max-width: 995px) {
+    .icons > * {
+    color: #ce973e;
+    font-size: 30px;
+    margin: auto 15px
+    }
+    footer li {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    footer {
+        padding: 50px 5%;
+    }
+    nav li {
+        font-size: 14px;
+    }
+    .logo-img {
+        height: 60px;
+    }
+    .logo-text {
+        font-size: 26px;
+    }
+    .extra > * {
+    margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 765px) {
+    .how {
+        max-width: 540px;
+    }
+    .skill {
+        margin: 20px 0;
+    }
+}
